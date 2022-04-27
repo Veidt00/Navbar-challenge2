@@ -7,6 +7,9 @@
     font-family: 'Anek Telugu', sans-serif;
 }
 
+body {
+    background: #026C7C;
+}
 
 header {
     background-color: #055864;
@@ -36,7 +39,7 @@ header {
     align-items: center;
 }
 
-ul li a {
+.navbar ul li a {
     margin: 0 15px;
     padding: 10px 10px;
     color: white;
@@ -47,8 +50,67 @@ ul li a {
     box-shadow: 5px 5px #026C7C;
 }
 
-ul li a:hover {
+.navbar ul li a:hover {
     background-color: #B81365;
     color: #BFAB25;
     font-size: 25px;
 }
+
+.texto {
+    width: 50vw;
+    text-align: center;
+    font-size: 2.5rem;
+    /* background: red; */
+}
+
+.texto span {
+    color: cornsilk;
+    text-shadow: 1.5px 1.5px black;
+}
+
+.text-container {
+    height: 100vh;
+    background-image: url(./img/motocross.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boton-1 ul {
+    padding: 20px;
+    margin: 0px 100px;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boton-1 ul li a {
+    background-color: #B81365;
+    margin: 0 15px;
+    padding: 10px 10px;
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s;
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 5px 5px #026C7C;
+}
+
+.boton-1 ul li a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+footer {
+    height: 10vh;
+    text-align: center;
+}
+
